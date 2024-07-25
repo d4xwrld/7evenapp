@@ -1,5 +1,6 @@
 package com.zevenApp.onecrwrpl
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -26,12 +27,14 @@ class LandingPage : AppCompatActivity() {
 //            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
 //            insets
 
-        val textView : TextView = findViewById(R.id.txt_loading)
+//        val textView : TextView = findViewById(R.id.txt_loading)
         val button : Button = findViewById(R.id.btn_submit)
 
         button.setOnClickListener{
-            tambahBilangan()
-            textView.text = bilangan.toString()
+            val intent = Intent(this, Calculator::class.java)
+            startActivity(intent)
+//            tambahBilangan()
+//            textView.text = bilangan.toString()
         }
     }
 }
