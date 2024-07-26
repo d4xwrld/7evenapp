@@ -3,6 +3,7 @@ package com.zevenApp.onecrwrpl
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -22,13 +23,15 @@ class LandingPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_landing_page)
+        supportActionBar?.hide()
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
 //            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
 //            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
 //            insets
 
 //        val textView : TextView = findViewById(R.id.txt_loading)
-        val button : Button = findViewById(R.id.btn_submit)
+        
+        val button : ImageButton = findViewById(R.id.btn_calculator)
 
         button.setOnClickListener{
             val intent = Intent(this, Calculator::class.java)

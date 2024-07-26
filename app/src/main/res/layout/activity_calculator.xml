@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:hint="masukkan angka"
         android:ems="8"
-        android:minHeight="48"
+        android:minHeight="48sp"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
