@@ -45,4 +45,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    apply(plugin = "com.android.application")
+    apply(plugin = "kotlin-android")
 }
