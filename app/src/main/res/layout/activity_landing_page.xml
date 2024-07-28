@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/main"
+    android:background="@drawable/gradient"
     tools:context=".LandingPage">
 
     <TextView
@@ -63,7 +63,7 @@
                         android:id="@+id/btn_calculator"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/rounded_corners"
+                        android:background="@drawable/gradient_rounded"
                         android:scaleType="fitStart"
                         android:src="@drawable/calculator_white"
                         tools:ignore="SpeakableTextPresentCheck" />

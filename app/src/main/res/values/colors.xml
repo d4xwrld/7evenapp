@@ -9,6 +9,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="main">#24252A</color>
+    <color name="secondary">#5B5B5B</color>
     <color name="one">#5262B9</color>
     <color name="orange">#FF5722</color>
 </resources>

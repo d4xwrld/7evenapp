@@ -1,0 +1,18 @@
+<!-- res/drawable/glassmorphism_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#80FFFFFF" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/secondary"
+                android:endColor="@color/main"
+                android:angle="45" />
+            <corners android:radius="16dp" />
+        </shape>
+    </item>
+</layer-list>

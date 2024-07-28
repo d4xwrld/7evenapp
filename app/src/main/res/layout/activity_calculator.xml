@@ -87,7 +87,7 @@
 
         <Button
             style="@style/buttonOperator"
-            android:text="X"/>
+            android:text="x"/>
 
 
     </LinearLayout>
